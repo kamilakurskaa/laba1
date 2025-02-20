@@ -9,6 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(src)
 
-set(SOURCE_FILES src/main.cpp src/utils.cpp src/utils.hpp)
+set(SOURCE_FILES src/main.cpp src/utils.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
